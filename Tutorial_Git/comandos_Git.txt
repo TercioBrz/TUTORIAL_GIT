@@ -41,3 +41,5 @@ git push -u origin master
 git clone "url"
  -> clona o repositorio remoto para ambiente local 
 
+git pull origin main
+-> baixa as mundalas feitas para repositorio atual

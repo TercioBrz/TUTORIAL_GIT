@@ -1,0 +1,6 @@
+M -> M representa o estado Modified.isso significa que o arquivo 
+já existia no repositório.
+
+U -> U representa o estado Untracked.isso significa que o arquivo 
+nao existia e que ainda nao teve seu registro (commit)
+
