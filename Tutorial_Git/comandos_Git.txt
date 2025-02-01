@@ -13,6 +13,10 @@ git commit -m "mensagem"
  -> criar uma versão para o projeto atual com uma
  mensagem associada
 
+ git commit -amend -m "mensagem"
+ -> altera o ultimo commit
+ ->use quando esquece de Adicionar algo no ultimo commit
+
 git status 
  -> mostra o estado atual do repositório
 
@@ -43,3 +47,6 @@ git clone "url"
 
 git pull origin main
 -> baixa as mundalas feitas para repositorio atual
+
+git reset --hard <hash_do_commit_anterior>
+-> apaga um commit
